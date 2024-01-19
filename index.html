@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,28 +11,75 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/src/output.css" />
+    <!-- Project Title -->
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body>
-    <main class="">
-      <section class="">
-        <div>
+  <body class="bg-[#141414] transition-all ease-in-out duration-[0.5s]">
+    <main
+      class="flex flex-col justify-center items-center place-content-center"
+    >
+      <section
+        class="bg-[#1F1F1F] text-[#FFFFFF] w-[24rem] h-[38.18rem] p-10 flex flex-col justify-center items-center my-[10.88rem] rounded-xl"
+      >
+        <div class="flex flex-col justify-center items-center gap-6 mb-7">
           <img
-            class=""
+            class="w-[5.5rem] h-[5.5rem] rounded-[62.4375rem]"
             src="/public/images/avatar-jessica.jpeg"
             alt="avatar-jessica"
           />
-          <h1 class="">Jessica Randall</h1>
-          <h2 class="">London, United Kingdom</h2>
-          "Front-end developer and avid reader."
+          <h1 class="text-2xl font-semibold leading-9">Jessica Randall</h1>
+          <h2 class="text-[#C4F82A] text-sm font-bold leading-snug">
+            London, United Kingdom
+          </h2>
+          <h3 class="text-sm font-normal leading-snug">
+            "Front-end developer and avid reader."
+          </h3>
         </div>
-        <ul class="">
-          <li class=""><a href="" class="">GitHub</a></li>
-          <li class=""><a href="" class="">Frontend Mentor</a></li>
-          <li class=""><a href="" class="">LinkedIn</a></li>
-          <li class=""><a href="" class="">Twitter</a></li>
-          <li class=""><a href="" class="">Instagram</a></li>
+        <ul class="flex flex-col justify-center items-center gap-4 text-center">
+          <li class="w-[19rem] bg-[#333333] p-3 rounded-xl hover:bg-[#C4F82A]">
+            <a
+              href=""
+              class="text-sm font-bold leading-snug text-[#fff] hover:text-[#333333]"
+              >GitHub</a
+            >
+          </li>
+          <li class="w-[19rem] bg-[#333333] p-3 rounded-xl hover:bg-[#C4F82A]">
+            <a
+              href=""
+              class="text-sm font-bold leading-snug text-[#fff] hover:text-[#333333]"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li class="w-[19rem] bg-[#333333] p-3 rounded-xl hover:bg-[#C4F82A]">
+            <a
+              href=""
+              class="text-sm font-bold leading-snug text-[#fff] hover:text-[#333333]"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="w-[19rem] bg-[#333333] p-3 rounded-xl hover:bg-[#C4F82A]">
+            <a
+              href=""
+              class="text-sm font-bold leading-snug text-[#fff] hover:text-[#333333]"
+              >Twitter</a
+            >
+          </li>
+          <li class="w-[19rem] bg-[#333333] p-3 rounded-xl hover:bg-[#C4F82A]">
+            <a
+              href=""
+              class="text-sm font-bold leading-snug text-[#fff] hover:text-[#333333]"
+              >Instagram</a
+            >
+          </li>
         </ul>
       </section>
       <footer class="">
